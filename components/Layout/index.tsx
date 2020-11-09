@@ -1,12 +1,14 @@
 import React from 'react'
+import Footer from '@components/Footer'
+import Header from '@components/Header'
 /* Path aliases */
 
 const Layout = ({ children }) => {
     return (
         <>
-            <header>This is a header</header>
+            <Header/>
                 {children}
-            <footer>Footer right there</footer>
+            <Footer/>
         </>
     )
 }

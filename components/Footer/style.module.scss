@@ -1,0 +1,22 @@
+$soft-gray: rgba(0,0,0,0.1);
+
+.footer {
+    padding: 30px 10px;
+    justify-content: center;
+    align-items: center;
+    .sectionWrapper {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+        justify-content: space-around;
+        border-top: 1px solid $soft-gray;
+        .section {
+            font-size: 1.4rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color:gray;
+        }
+    }    
+
+}
+
